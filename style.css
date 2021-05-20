@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color:white;
+    border-style: solid;
+    border-color: gray;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}.topBox {
+    background-color: rgb(7, 134, 134);
+    width: 500px;
+    height: 80px;
+}
+
+.lowerBox {
+    padding: 1%;
+}
+
+.infoBox {
+    padding: 1%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+.locationMarker {
+    height: 24px;
+}
+
+.gear {
+    height: 15px;
+}
+
+.profilePic {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+
+#userCircle {
+    height: 65px;
+    margin-top: 30px;
+    margin-left: 12px;
+
+}
+
+.editProfile {
+    color: blue;
+    text-decoration: underline;
+}
